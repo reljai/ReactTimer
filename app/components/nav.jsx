@@ -8,10 +8,10 @@ var Nav = () => {
                 <ul className="menu">
                     <li className="menu-text">React Timer</li>
                     <li>
-                        <IndexLink to="foo" activeClassName="active-link">Timer</IndexLink>
+                        <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
                     </li>
                     <li>
-                        <Link to="foo" activeClassName="active-link">Countdown</Link>
+                        <Link to="Countdown" activeClassName="active-link">Countdown</Link>
                     </li>
                 </ul>
             </div>
